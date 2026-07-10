@@ -91,13 +91,13 @@ const autobusState = {
 
 function loadModel() {
     const textureLoader = new THREE.TextureLoader();
-    textureLoader.load('assets/textures/sunset_sky.jpg', (texture) => {
+    textureLoader.load('./assets/textures/sunset_sky.jpg', (texture) => {
         texture.mapping = THREE.EquirectangularReflectionMapping; 
         texture.colorSpace = THREE.SRGBColorSpace;
         scene.background = texture;
     }, undefined, (err) => console.error("Errore nel caricamento del cielo:", err));
 
-    return new GLTFLoader().loadAsync('assets/models/japanese_street.glb').then(gltf => {
+    return new GLTFLoader().loadAsync('./assets/models/japanese_street.glb').then(gltf => {
         const root = gltf.scene;
         
         const box = new THREE.Box3().setFromObject(root);
