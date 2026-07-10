@@ -1,0 +1,23 @@
+{
+  "name": "progetto_mod2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --entry ./src/main.js --output-filename bundle.js --mode development",
+    "start": "serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "lil-gui": "^0.21.0",
+    "three": "^0.185.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6",
+    "webpack": "^5.108.3",
+    "webpack-cli": "^7.1.0"
+  }
+}
