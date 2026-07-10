@@ -97,7 +97,7 @@ function loadModel() {
         scene.background = texture;
     }, undefined, (err) => console.error("Errore nel caricamento del cielo:", err));
 
-    return new GLTFLoader().loadAsync('/assets/models/japanese_street.glb').then(gltf => {
+    return new GLTFLoader().loadAsync('assets/models/japanese_street.glb').then(gltf => {
         const root = gltf.scene;
         
         const box = new THREE.Box3().setFromObject(root);
