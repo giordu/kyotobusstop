@@ -2,7 +2,6 @@
 node_modules/
 
 # File di build
-dist/
 build/
 
 # File di sistema spazzatura
