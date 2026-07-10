@@ -8,3 +8,5 @@ build/
 # File di sistema spazzatura
 .DS_Store
 Thumbs.db
+
+.vscode
