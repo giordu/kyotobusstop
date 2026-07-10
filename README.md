@@ -5,8 +5,8 @@
 ## Screenshot della Scena
 ![Kyoto Bus Stop](screenshot_scene.png)
 
-## Live Demo and Local Download
-Il progetto è pubblicato e consultabile in tempo reale al seguente 
+## Live Demo e Local Download
+Il progetto è pubblicato e consultabile in tempo reale al seguente link
 [https://giordu.github.io/kyotobusstop/]
 
 Per eseguirlo in locale (Node.js):
