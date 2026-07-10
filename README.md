@@ -11,6 +11,6 @@ Il progetto è pubblicato e consultabile in tempo reale al seguente link
 
 Per eseguirlo in locale (Node.js):
 ```bash
-   git clone [https://github.com/giordu/kyotobusstop.git]
+   git clone https://github.com/giordu/kyotobusstop.git
    npm run build
    npx serve
