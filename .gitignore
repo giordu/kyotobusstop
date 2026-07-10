@@ -1,9 +1,6 @@
 # Dipendenze Node
 node_modules/
 
-# File di build
-build/
-
 # File di sistema spazzatura
 .DS_Store
 Thumbs.db
